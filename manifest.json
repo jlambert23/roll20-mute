@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "Toggle Roll20 Mute",
+  "version": "1.0",
+  "description": "Toggle Roll20 mute button",
+  "background": {
+    "service_worker": "service-worker.js"
+  },
+  "permissions": ["activeTab", "scripting"],
+  "action": {
+    "default_popup": "public/index.html"
+  },
+  "commands": {
+    "toggle-mute": {
+      "suggested_key": {
+        "default": "Ctrl+U",
+        "mac": "Command+U"
+      },
+      "description": "Toggle the mute button on app.roll20.net"
+    }
+  }
+}

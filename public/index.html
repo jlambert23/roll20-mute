@@ -1,0 +1,31 @@
+<html>
+  <script src="script.js"></script>
+  <style>
+    body {
+      padding: 10px 8px;
+      font-size: 16px;
+    }
+    @media (prefers-color-scheme: dark) {
+      .themed {
+        background: #1f262d;
+        color: white;
+      }
+    }
+    section {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 12px;
+    }
+    .label {
+      font-weight: bold;
+      text-align: center;
+    }
+  </style>
+  <body class="themed">
+    <section>
+      <span class="label">Toggle Shortcut</span>
+      <span id="hint"></span>
+    </section>
+  </body>
+</html>

@@ -1,0 +1,6 @@
+{
+  "name": "roll20-mute",
+  "devDependencies": {
+    "chrome-types": "^0.1.227"
+  }
+}
