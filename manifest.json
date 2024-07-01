@@ -13,8 +13,8 @@
   "commands": {
     "toggle-mute": {
       "suggested_key": {
-        "default": "Ctrl+U",
-        "mac": "Command+U"
+        "default": "Ctrl+Shift+M",
+        "mac": "Command+Shift+M"
       },
       "description": "Toggle the mute button on app.roll20.net"
     }
