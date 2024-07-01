@@ -4,9 +4,10 @@
     body {
       padding: 10px 8px;
       font-size: 16px;
+      width: 200px;
     }
     @media (prefers-color-scheme: dark) {
-      .themed {
+      .theme {
         background: #1f262d;
         color: white;
       }
@@ -21,8 +22,18 @@
       font-weight: bold;
       text-align: center;
     }
+    #hint {
+      color: #4a4a4a;
+      background-color: #f4f3f4;
+      padding: 4px;
+      border-radius: 4px;
+      box-shadow: 2px 2px 6px #1a1a1a;
+      letter-spacing: 0.5px;
+      cursor: pointer;
+      user-select: none;
+    }
   </style>
-  <body class="themed">
+  <body class="theme">
     <section>
       <span class="label">Toggle Shortcut</span>
       <span id="hint"></span>
