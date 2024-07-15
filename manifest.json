@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "Toggle Roll20 Mute",
-  "version": "1.0",
+  "version": "0.0.1",
   "description": "Toggle Roll20 mute button",
   "background": {
     "service_worker": "service-worker.js"

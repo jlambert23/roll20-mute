@@ -1,5 +1,6 @@
 {
   "name": "roll20-mute",
+  "version": "0.0.1",
   "scripts": {
     "build": "mkdir build && cp -r public manifest.json service-worker.js build && crx pack build"
   },
