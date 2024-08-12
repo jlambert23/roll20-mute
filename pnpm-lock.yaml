@@ -9,8 +9,8 @@ importers:
   .:
     devDependencies:
       chrome-types:
-        specifier: ^0.1.227
-        version: 0.1.292
+        specifier: ^0.1.297
+        version: 0.1.297
       crx:
         specifier: ^5.0.1
         version: 5.0.1
@@ -49,8 +49,8 @@ packages:
   buffer@5.7.1:
     resolution: {integrity: sha512-EHcyIPBQ4BSGlvjB16k5KgAJ27CIsHY/2JBmCRReo48y9rQ3MaUzWX3KVlBa4U7MyX02HdVj0K7C3WaB3ju7FQ==}
 
-  chrome-types@0.1.292:
-    resolution: {integrity: sha512-7iXzY8TtkwSK3DOTznKO1SfPg8i4lsDjFPBpXNPu1CPYRRBhWrt5FDReLMtfGTU9ZRNVr54sfaH4AU7C2KA/uQ==}
+  chrome-types@0.1.297:
+    resolution: {integrity: sha512-pVvyKx+JBZ5jh08bU6qL2IepJItfVOyGeMJtxfi9T5/LBXGbRlbCm7wMUvW51VqqGniPwJjtU20/M0oxH/wsFg==}
 
   commander@2.20.3:
     resolution: {integrity: sha512-GpVkmM8vF2vQUkj2LvZmD35JxeJOLCwJ9cUkugyk2nuhbv3+mJvpLYYt+0+USMxE+oj+ey/lJEnhZw75x/OMcQ==}
@@ -249,7 +249,7 @@ snapshots:
       base64-js: 1.5.1
       ieee754: 1.2.1
 
-  chrome-types@0.1.292: {}
+  chrome-types@0.1.297: {}
 
   commander@2.20.3: {}
 

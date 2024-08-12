@@ -5,7 +5,7 @@
     "build": "mkdir build && cp -r public manifest.json service-worker.js build && crx pack build"
   },
   "devDependencies": {
-    "chrome-types": "^0.1.227",
+    "chrome-types": "^0.1.297",
     "crx": "^5.0.1"
   }
 }
