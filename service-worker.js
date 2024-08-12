@@ -8,7 +8,7 @@ async function getCurrentTab() {
 
 function toggleMute() {
   const muteButton = document.querySelector(
-    "#player_-MR0WIh6DmKBdErY8nmt > div.video-container > div.player-bookmark.ui-draggable.ui-draggable-handle > div.av-controls > i:nth-child(1)"
+    "div.video-container > div.player-bookmark.ui-draggable.ui-draggable-handle > div.av-controls > i:nth-child(1)",
   );
   muteButton.click();
 }
